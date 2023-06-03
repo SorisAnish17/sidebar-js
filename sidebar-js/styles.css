@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.sub-container {
+  width: 400px;
+  height: 100vh;
+  background-color: rgb(209, 230, 154) !important;
+  transition: 1s;
+  transform: translate(-100%);
+}
+.anime {
+  transition: 1s;
+  width: 400px;
+  height: 100vh;
+  margin: 0px;
+  background-color: rgb(222, 244, 141) !important;
+}
+#mark {
+  position: fixed;
+  left: 350px;
+  top: 75px;
+  transition: 1s;
+}
+.error {
+  transform: translateX(-100%);
+  width: 400px;
+  height: 100vh;
+  transition: 1s;
+}

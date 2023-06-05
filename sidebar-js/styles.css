@@ -9,6 +9,7 @@ body {
   background-color: rgb(209, 230, 154) !important;
   transition: 1s;
   transform: translate(-100%);
+  position:relative;
 }
 .anime {
   transition: 1s;
@@ -18,9 +19,8 @@ body {
   background-color: rgb(222, 244, 141) !important;
 }
 #mark {
-  position: fixed;
+  position: absolute;
   left: 350px;
-  top: 75px;
   transition: 1s;
 }
 .error {
